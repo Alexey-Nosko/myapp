@@ -10,6 +10,6 @@ public class Controller {
 
     @GetMapping
     public String hello() {
-        return "Hello world Version 1 new";
+        return "Hello world Version 2";
     }
 }
