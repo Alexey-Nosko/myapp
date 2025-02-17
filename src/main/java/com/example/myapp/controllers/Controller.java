@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hand")
 public class Controller {
 
-    @GetMapping
+    @GetMapping("/hello")
     public String hello() {
-        return "Hello world Version 31";
+        return "Hello world Version 32";
     }
 }
