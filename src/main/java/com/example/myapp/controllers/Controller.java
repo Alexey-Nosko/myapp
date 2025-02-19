@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/app")
+@RequestMapping("/")
 public class Controller {
 
-    @GetMapping("/")
+    @GetMapping
     public String hello() {
-        return "Hello world Version 50";
+        return "Hello world Version 51";
     }
 }
